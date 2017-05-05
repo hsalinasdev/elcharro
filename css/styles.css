@@ -63,32 +63,38 @@ h1, h2, h3, h4, h5, h6{
 
 /*CAROUSEL SECTION*/
 
+
 .item{
   height: 450px;
   background-position: center;
   background-size: cover;
-
-
 }
 
-#wood-background{
-  background-image: url('../img/wood-2.jpg');
-  padding-top: 9%;
-
+.crsl-logos{
+  height: 150px;
 }
 
-#main-logo{
-  width: 250px;
+#charreria{
+  background-image: url('../img/charreria.jpg');
+  padding-top: 15%;
 }
 
-#seating-background{
-  background-image: url('../img/restaurant-2.jpg');
 
+
+#slide-2-back{
+  background-image: url('../img/bandera.jpg');
 }
 
-#farm-background{
-  background-image: url('../img/farm-2.jpg');
+#slide-3-back{
+  background-image: url('../img/pueblito002.jpg');
 }
+
+#slide-4-back{
+  background-image: url('../img/cactus.jpg');
+}
+
+
+
 
 .carousel-caption{
   padding-bottom: 110px;
@@ -104,12 +110,12 @@ h1, h2, h3, h4, h5, h6{
 
 .btn-default{
   color: white;
-  background-color: #f8512f;
+  background-color: #136734;
   border: none;
 }
 
 .btn-default:hover{
-  background-color: #d34326;
+  background-color: #0A361B;
   color: white;
 }
 
