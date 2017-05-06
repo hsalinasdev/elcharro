@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, h6{
 
 /*NAVBAR SECTION*/
 
+#nav-white{
+  background-color: white;
+  height: 130px;
+}
 .navbar-default{
   background-color: transparent;
   border: none;
@@ -48,7 +52,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-  background-color: #CD2027;
+  background-color: #136734;
   color: #fff;
   border-radius: 5px;
 }
@@ -65,12 +69,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #nav-logo{
-  height: 75px;
+  height: 100px;
 }
 
 
 /*CAROUSEL SECTION*/
 
+.carousel{
+  margin-top: 140px;
+}
 
 .item{
   height: 450px;
@@ -78,23 +85,26 @@ h1, h2, h3, h4, h5, h6{
   background-size: cover;
 }
 
-.crsl-logos{
+.crsl-logo{
   height: 150px;
 }
 
-#charreria{
-  background-image: url('../img/charreria.jpg');
+.crsl-label{
+  height: 125px;
+}
+#c1-tacos{
+  background-image: url('../img/c1-tacos.jpg');
   padding-top: 15%;
 }
 
 
 
-#slide-2-back{
-  background-image: url('../img/bandera.jpg');
+#c2-restaurant{
+  background-image: url('../img/c2-restaurant.jpg');
 }
 
-#slide-3-back{
-  background-image: url('../img/pueblito002.jpg');
+#c3-menu{
+  background-image: url('../img/c3-menu.jpg');
 }
 
 #slide-4-back{
