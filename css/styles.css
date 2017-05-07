@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, h6{
 
 #nav-white{
   background-color: white;
-  height: 160px;
-  padding-top: 20px;
+  height: 120px;
+  padding-top: 10px;
 
 }
 .navbar-default{
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #nav-logo{
-  height: 100px;
+  height: 80px;
 }
 
 
@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .crsl-label{
-  height: 125px;
+  height: 110px;
 }
 #c1-tacos{
   background-image: url('../img/c1-tacos.jpg');
@@ -140,51 +140,55 @@ h1, h2, h3, h4, h5, h6{
   color: white;
 }
 
+/*ALWAYS SECTION*/
+
+#always{
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+#always img{
+  width: 90%;
+}
+
+
+
+
 /*OUR STORY*/
+
+
 #our-story{
-  margin-top: 75px;
-}
-#our-story h1.lobster-text{
-  text-shadow: 1px 1px #5e5f5f;
-  font-size: 4.5em;
-
-}
-
-#year-text{
-  position: absolute;
-  font-size: 10em;
-  color: rgba(0, 0, 0, .07);
-  z-index:  0;
-  font-family: 'Playfair Display', serif;
-}
-
-
-
-#review{
-  background-image: url('../img/goodveg.jpg');
-  height: 450px;
+  background-image: url('../img/mex-ayer.jpg');
+  height: 500px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
+  margin-top: 75px;
+  margin-bottom: 125px;
 }
 
-#review-background{
-    background-color: rgba(0, 0, 0, .3);
+#story-label{
+  height: 125px;
+}
+
+
+#story-text{
+    background-color: rgba(0, 0, 0, .5);
     margin-top: 163px;
     padding: 10px 0px;
     text-shadow: 1px 1px #000;
     border-radius: 5px;
 }
 
-#review-background h3{
-  font-size: 50px;
-}
-
-#review-background p{
+#story-text p{
   font-size: 22px;
 }
 
+
+#our-story p{
+  margin-left: 18px;
+}
 
 /*NAVIGATION*/
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu-section ul>li>a{
