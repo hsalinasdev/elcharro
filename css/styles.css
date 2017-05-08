@@ -26,8 +26,8 @@ h1, h2, h3, h4, h5, h6{
 
 #nav-white{
   background-color: white;
-  height: 120px;
-  padding-top: 10px;
+  height: 75px;
+  padding-top: 2px;
 
 }
 .navbar-default{
@@ -62,14 +62,14 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #nav-logo{
-  height: 80px;
+  height: 55px;
 }
 
 
 /*CAROUSEL SECTION*/
 
 .carousel{
-  margin-top: 140px;
+  margin-top: 150px;
 }
 
 .item{
@@ -79,11 +79,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .crsl-logo{
-  width: 80%;
+  width: 65%;
 }
 
 .crsl-label{
-  width: 70%;
+  width: 55%;
 }
 
 
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #story-label{
-  width: 75%;
+  width: 50%;
 }
 
 
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6{
 /*MENU NAVIGATION/CATEGORIES*/
 
 #menu-label{
-  width: 30%;
+  width: 25%;
   margin-top: 50px;
 }
 
