@@ -1,22 +1,12 @@
 /*UNIVERSALS*/
 
-@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:900|Raleway:400,700');
 
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 h1, h2, h3, h4, h5, h6{
   font-weight: 700;
 }
 
-
-
-
-.lobster-text{
-  font-family: 'lobster', cursive;
-}
-
-.orange-text{
-  color: #cd2027;
-}
 
 .white-text{
   color: white;
@@ -30,8 +20,6 @@ h1, h2, h3, h4, h5, h6{
 .light-text{
   font-weight: 400;
 }
-
-/**/
 
 
 /*NAVBAR SECTION*/
@@ -50,7 +38,7 @@ h1, h2, h3, h4, h5, h6{
 .nav li a{
   background-color: #136734;
   border-radius: 5px;
-  margin: 6px;
+  margin: 8px;
 }
 
 
@@ -62,7 +50,9 @@ h1, h2, h3, h4, h5, h6{
 
 .navbar-default .navbar-nav>li>a{
   color: #fff;
+
 }
+
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
   color: #fff;
@@ -95,11 +85,12 @@ h1, h2, h3, h4, h5, h6{
 .crsl-label{
   height: 110px;
 }
+
+
 #c1-tacos{
   background-image: url('../img/c1-tacos.jpg');
   padding-top: 15%;
 }
-
 
 
 #c2-restaurant{
@@ -109,12 +100,6 @@ h1, h2, h3, h4, h5, h6{
 #c3-menu{
   background-image: url('../img/c3-menu.jpg');
 }
-
-#slide-4-back{
-  background-image: url('../img/cactus.jpg');
-}
-
-
 
 
 .carousel-caption{
@@ -136,7 +121,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn-default:hover{
-  background-color: #0A361B;
   color: white;
 }
 
@@ -152,11 +136,7 @@ h1, h2, h3, h4, h5, h6{
   width: 90%;
 }
 
-
-
-
 /*OUR STORY*/
-
 
 #our-story{
   background-image: url('../img/mex-ayer.jpg');
@@ -191,10 +171,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-
-
-/*MENU NAVIGATION CATEGORIES*/
-
+/*MENU NAVIGATION/CATEGORIES*/
 
 #menu-label{
   width: 300px;
@@ -206,9 +183,6 @@ h1, h2, h3, h4, h5, h6{
   text-transform: uppercase;
 }
 
-
-
-
 .nav-tabs>li.active>a:hover, .nav>li>a:focus, .nav>li>a:hover{
   background-color: rgba(0, 0, 0, .25);
   border: none;
@@ -217,6 +191,7 @@ h1, h2, h3, h4, h5, h6{
 .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover{
   border: none;
 }
+
 ul{
   border: none;
 }
@@ -232,7 +207,4 @@ ul{
 .food-item{
   background-color: white;
   padding: 20px;
-}
-#menu-section h1{
-  font-size: 61px;
 }
