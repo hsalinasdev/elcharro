@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .orange-text{
-  color: #f8512f;
+  color: #cd2027;
 }
 
 .white-text{
@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6{
   background-position: center;
   background-attachment: fixed;
   margin-top: 75px;
-  margin-bottom: 125px;
+  margin-bottom: 175px;
 }
 
 #story-label{
@@ -190,11 +190,24 @@ h1, h2, h3, h4, h5, h6{
   margin-left: 18px;
 }
 
-/*NAVIGATION*/
+
+
+
+/*MENU NAVIGATION CATEGORIES*/
+
+
+#menu-label{
+  width: 300px;
+  margin-top: 50px;
+}
+
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu-section ul>li>a{
-  color: #F8512F;
+  color: darkgrey;
   text-transform: uppercase;
 }
+
+
+
 
 .nav-tabs>li.active>a:hover, .nav>li>a:focus, .nav>li>a:hover{
   background-color: rgba(0, 0, 0, .25);
@@ -208,13 +221,12 @@ ul{
   border: none;
 }
 
-/*MENU SECTION*/
+/*MENU FOOD ITEMS*/
 
 #menu-section{
-  background-image: url('../img/black_linen.png');
-  background-size: cover;
-  background-position: center;
-  height:650px;
+  background-image: url('../img/logo-repeat.png');
+  background-repeat: repeat;
+  height:800px;
 }
 
 .food-item{
