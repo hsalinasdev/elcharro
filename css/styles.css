@@ -79,11 +79,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .crsl-logo{
-  height: 150px;
+  width: 40%;
 }
 
 .crsl-label{
-  height: 110px;
+  width: 30%;
 }
 
 
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #story-label{
-  height: 125px;
+  width: 40%;
 }
 
 
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6{
 /*MENU NAVIGATION/CATEGORIES*/
 
 #menu-label{
-  width: 300px;
+  width: 30%;
   margin-top: 50px;
 }
 
