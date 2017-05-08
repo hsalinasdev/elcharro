@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .orange-text{
-  color: #f8512f;
+  color: #cd2027;
 }
 
 .white-text{
@@ -202,9 +202,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu-section ul>li>a{
-  color: #F8512F;
+  color: darkgrey;
   text-transform: uppercase;
 }
+
+
+
 
 .nav-tabs>li.active>a:hover, .nav>li>a:focus, .nav>li>a:hover{
   background-color: rgba(0, 0, 0, .25);
