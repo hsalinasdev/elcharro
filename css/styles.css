@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6{
 #always{
   height: 250px;
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 #always img{
@@ -139,12 +139,12 @@ h1, h2, h3, h4, h5, h6{
 
 #our-story{
   background-image: url('../img/mex-ayer.jpg');
-  height: 500px;
+  height: 600px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   margin-top: 75px;
-  margin-bottom: 175px;
+  margin-bottom: 200px;
 }
 
 #story-label{
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6{
 
 #menu-label{
   width: 25%;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu-section ul>li>a{
@@ -200,7 +200,8 @@ ul{
 #menu-section{
   background-image: url('../img/logo-repeat.png');
   background-repeat: repeat;
-  height:800px;
+  height:auto;
+  margin-bottom: 250px;
 }
 
 .food-item{
@@ -213,12 +214,12 @@ ul{
 
 #events{
   background-image: url('../img/cater-trays.jpg');
-  height: 500px;
+  height: 600px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   margin-top: 75px;
-  margin-bottom: 175px;
+  margin-bottom: 200px;
 }
 
 #events-label{
@@ -241,3 +242,73 @@ ul{
   #events p{
     margin-left: 18px;
   }
+
+  /*CONTACT SECTION*/
+
+
+
+  form{
+    background-color: #136734;
+    padding:15px;
+  }
+
+  #contact-text{
+    margin-bottom: 25px;
+    font-size: 2em;
+  }
+
+
+  #contact{
+    height: auto;
+    background-color: #136734;
+    padding-top:75px;
+    padding-bottom: 30px;
+  }
+
+  #cont-label{
+  height: 75px;
+  margin-bottom: 25px;
+  }
+
+  /*FOOTER SECTION*/
+
+
+  /*===========FOOOTER SECTION=======*/
+
+#footer{
+  height: auto;
+  background-color: #136734;
+  padding: 0px 10px 0px 10px;
+  position: relative;
+  clear: both;
+  padding: 8px 0px;
+  text-decoration: none;
+}
+
+#copy-slns{
+
+}
+#social{
+  float: center;
+  font-size: 30px;
+  padding: 3px 0px
+}
+
+
+.fa{
+    margin: 8px;
+}
+
+footer #social-media a {
+    color: #000;
+}
+
+.centered{
+  text-align: center;
+}
+
+
+
+a{
+  color: white;
+}

@@ -10,272 +10,357 @@
 </head>
 <body data-spy="scroll" data-target="#navbar">
 
-<!--NAVBAR BEGINS-->
-	<div id="navbar">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid" id="nav-white">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">
-					<img src="img/logo-charro.png" id="nav-logo" alt="Header Logo"></IMG>
-				</a>
+<div id="home">
+	<!--NAVBAR BEGINS-->
+		<div id="navbar">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container-fluid" id="nav-white">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="img/logo-charro.png" id="nav-logo" alt="Header Logo"></IMG>
+					</a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+						<li><a href="#our-story">Our Story</a></li>
+						<li><a href="#menu-section">Menu</a></li>
+						<li><a href="#events">Events</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<!--NAVBAR ENDS-->
+
+		<!--CAROUSEL SECTION BEGINS-->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+
+		    <div class="item active" id="c1-tacos"><!--FIRST SLIDE BEGINS-->
+					<div class="carousel-caption">
+						<img src="img/cl-logo.png" alt="Main Logo" class="center-block image-responsive center-block crsl-logo">
+					</div>
+		    </div><!--FIRST SLIDE ENDS-->
+
+		    <div class="item" id="c3-menu"><!--SECOND SLIDE BEGINS-->
+		      <div class="carousel-caption">
+						<img src="img/cl-menu.png" alt="Menu" class="center-block image-responsive center-block crsl-label">
+		      </div>
+		    </div><!--SECOND SLIDE ENDS-->
+
+				<div class="item" id="c2-restaurant"><!--THIRD SLIDE BEGINS-->
+					<div class="carousel-caption">
+						<img src="img/cl-visit.png" alt="Visit Us" class="center-block image-responsive center-block crsl-label">
+					</div>
+				</div><!--THIRD SLIDE ENDS-->
+
+		  </div>
+
+	  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+
+		<!--CAROUSEL SECTION ENDS-->
+
+		<!--ALWAYS SECTION STARTS-->
+		<div class="container-fluid" id="always">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<img src="img/always.png" alt="Always motto" class="image-responsive">
+				</div>
 			</div>
+		</div>
+		<!--ALWAYS SECTION ENDS-->
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#carousel-example-generic">Home<span class="sr-only">(current)</span></a></li>
-					<li><a href="#our-story">Our Story</a></li>
-					<li><a href="#menu-section">Menu</a></li>
-					<li><a href="#events">Events</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
-	</div>
-	<!--NAVBAR ENDS-->
-
-	<!--CAROUSEL SECTION BEGINS-->
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-	  <ol class="carousel-indicators">
-	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-
-	  </ol>
-
-	  <!-- Wrapper for slides -->
-	  <div class="carousel-inner" role="listbox">
-
-	    <div class="item active" id="c1-tacos"><!--FIRST SLIDE BEGINS-->
-				<div class="carousel-caption">
-					<img src="img/cl-logo.png" alt="Main Logo" class="center-block image-responsive center-block crsl-logo">
+		<!--OUR STORY SECTION STARTS HERE-->
+		<div class="container-fluid" id="our-story">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center" id="story-text">
+					<img src="img/our-story.png" alt="Our Story" class="image-responsive text-center" id="story-label">
+					<p class="white-text text-left">Our story begins in the 1950’s, when my grandparents left their small village, in Jalisco Mexico. They came to Fresno California, and opened “El Charro Restaurant” in 1964, inspired by authentic Mexican recipies and ingredients passed down for generations.
+					</p>
 				</div>
-	    </div><!--FIRST SLIDE ENDS-->
+			</div>
+		</div>
+		<!--OUR STORY SECTION ENDS HERE-->
 
-	    <div class="item" id="c3-menu"><!--SECOND SLIDE BEGINS-->
-	      <div class="carousel-caption">
-					<img src="img/cl-menu.png" alt="Menu" class="center-block image-responsive center-block crsl-label">
-	      </div>
-	    </div><!--SECOND SLIDE ENDS-->
 
-			<div class="item" id="c2-restaurant"><!--THIRD SLIDE BEGINS-->
-				<div class="carousel-caption">
-					<img src="img/cl-visit.png" alt="Visit Us" class="center-block image-responsive center-block crsl-label">
-				</div>
-			</div><!--THIRD SLIDE ENDS-->
 
-	  </div>
 
-  <!-- Controls -->
-	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
+
+	<!--MENU SECTION BEGINS-->
+	<div class="container-fluid" id="menu-section">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<img src="img/menu.png" alt="Menu" class="image-responsive text-center" id="menu-label">
+
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs nav-justified" role="tablist">
+						<li role="presentation" class="active"><a href="#TRADITIONAL" aria-controls="TRADITIONAL" role="tab" data-toggle="tab">TRADITIONAL</a></li>
+						<li role="presentation"><a href="#SEAFOOD" aria-controls="SEAFOOD" role="tab" data-toggle="tab">SEAFOOD</a></li>
+						<li role="presentation"><a href="#SPECIALTIES" aria-controls="SPECIALTIES" role="tab" data-toggle="tab">SPECIALTIES</a></li>
+						<li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab">dessert</a></li>
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active fade in" id="TRADITIONAL">
+
+						<!--TRADITIONAL MENU SECTION BEGINS-->
+							<div class="col-sm-6 col-md-3 food-item">
+									<img src="img/tr-tacos.jpg" alt="Tacos" class="img-responsive img-thumbnail">
+									<h3>Tacos</h3>
+									<p class="text-justify">Your choice of meat on a warm corn tortilla.</p>
+							</div>
+
+							<div class="col-sm-6 col-md-3 food-item">
+									<img src="img/tr-burritos.jpg" alt="Burrito" class="img-responsive img-thumbnail">
+									<h3>Burritos</h3>
+									<p class="text-justify">Your choice of meat, plus the works!</p>
+							</div>
+
+							<div class="col-sm-6 col-md-3 food-item">
+									<img src="img/tr-quesadillas.jpg" alt="Quesadillas" class="img-responsive img-thumbnail">
+									<h3>Quesadillas</h3>
+									<p class="text-justify">Flour tortilla, melted cheese, and your choice of meat.</p>
+							</div>
+
+							<div class="col-sm-6 col-md-3 food-item">
+									<img src="img/tr-tortas.jpg" alt="Tortas" class="img-responsive img-thumbnail">
+									<h3>Tortas</h3>
+									<p class="text-justify">Classic birote bread, your choice of meat, and the works!</p>
+							</div>
+							<!--TRADITIONAL MENU SECTION ENDS-->
+
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="SEAFOOD">
+							<!--SEAFOOD MENU SECTION BEGINS-->
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/sea-coctel.jpg" alt="Coctel de Camaron" class="img-responsive img-thumbnail">
+										<h3>Shrimp Coctail</h3>
+										<p class="text-justify">Shrimp in coctail sauce, avocado, and fresh vegetables.</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/sea-mojarra.png" alt="Mojarra" class="img-responsive img-thumbnail">
+										<h3>Mojarra</h3>
+										<p class="text-justify">Well seasoned Mojarra, cooked to perfection.</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/sea-tcamaron.jpg" alt="Prime Rib" class="img-responsive img-thumbnail">
+										<h3>Shrimp Tostada</h3>
+										<p class="text-justify">Tostada topped with shrimp, and veggies.</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/sea-ceviche.jpg" alt="Ceviche Tostada" class="img-responsive img-thumbnail">
+										<h3>Ceviche Tostada</h3>
+										<p class="text-justify">Tostada topped with our lime-marinated fish.</p>
+								</div>
+								<!--SEAFOOOD MENU SECTION ENDS-->
+						</div>
+
+
+						<div role="tabpanel" class="tab-pane fade" id="SPECIALTIES">
+								<!--SPECIALTIES MENU SECTION BEGINS-->
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/dish-steak.jpg" alt="Steak Fajitas" class="img-responsive img-thumbnail">
+										<h3>Steak Fajitas</h3>
+										<p class="text-justify">Marinated Steak Fajitas, served with vegetable, tortillas, guacamole, and salsa.</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/dish-chicken.jpg" alt="Chicken Fajitas" class="img-responsive img-thumbnail">
+										<h3>Chicken  Fajitas</h3>
+										<p class="text-justify">Grilled Chicken Fajitas, served with vegetable, tortillas, guacamole, and salsa.</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/dish-chiles.jpg" alt="Chiles Rellenos" class="img-responsive img-thumbnail">
+										<h3>Chile Relleno</h3>
+										<p class="text-justify">Battered mild chile, stuffed with fresh mexican cheese. Served with rice, beans and salad</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/dish-mojo.png" alt="Bruschetta" class="img-responsive img-thumbnail">
+										<h3>Mojo de Ajo Shimp</h3>
+										<p class="text-justify">Shrimp cooked in a butter-garlic sauce, served with rice and beans.</p>
+								</div>
+								<!--SPECIALTIES MENU SECTION ENDS-->
+						</div>
+
+
+						<div role="tabpanel" class="tab-pane fade" id="dessert">
+							<!--DESSERT MENU SECTION BEGINS-->
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/dsrt-flan.jpg" alt="Flan" class="img-responsive img-thumbnail">
+										<h3>Flan</h3>
+										<p class="text-justify">Traditional mexican custard, toped with caramel sauce.</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/dsrt-tres.png" alt="Eggplant" class="img-responsive img-thumbnail">
+										<h3>Tres Leches Cake</h3>
+										<p class="text-justify">Mexican sponge cake infused with 3 types of sweet milk.</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/dsrt-churros.jpg" alt="Churros" class="img-responsive img-thumbnail">
+										<h3>Churros</h3>
+										<p class="text-justify">Churro pastry, served with chocolate dipping sauce.</p>
+								</div>
+
+								<div class="col-sm-6 col-md-3 food-item">
+										<img src="img/dsrt-dulce.jpg" alt="Dulce de Leche" class="img-responsive img-thumbnail">
+										<h3>Dulce de Leche</h3>
+										<p class="text-justify">Mexican Cheesecake, topped with caramel, and chocolate.</p>
+								</div>
+								<!--DESSERT MENU SECTION ENDS-->
+						</div>
+					</div>
+			</div>
+		</div>
 	</div>
 
-	<!--CAROUSEL SECTION ENDS-->
+	<!--MENU SECTION ENDS-->
 
-	<!--ALWAYS SECTION STARTS-->
-	<div class="container-fluid" id="always">
+	<!--EVENT SECTION STARTS HERE-->
+		<div class="container-fluid" id="events">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center" id="events-text">
+					<img src="img/events.png" alt="Our Story" class="image-responsive text-center" id="events-label">
+					<p class="white-text text-center">Let us cater your next event. Call us for a quote.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+	<!--EVENT SECTION ENDS HERE-->
+
+	<!--CONTACT SECTION STARTS-->
+	<div class="container-fluid white-text" id="contact">
+
+		<div class="row text-center">
+			<div class="col-md-12">
+				<img src="img/contact.png" id="cont-label" alt="contact">
+			</div>
+		</div>
+
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<img src="img/always.png" alt="Always motto" class="image-responsive">
+				<p id="contact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque natus, omnis libero eius reiciendis, laboriosam quasi quidem minima porro odio dolorem cum, at eligendi voluptate dolore beatae. Perferendis, non, eaque?</p>
 			</div>
+			<div class="col-md-3 col-md-offset-2">
+				<form>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Name:</label>
+						<input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+					</div>
+
+
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email:</label>
+						<input type="Email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					</div>
+
+
+					<div class="form-group">
+						<label for="subject">Subject:</label>
+						<input type="text" class="form-control" id="subject" placeholder="Subject">
+					</div>
+
+					<div class="form-group">
+						<label for="message">Message:</label>
+						<textarea class="form-control" rows="6" id="message"></textarea>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox">I am not a robot
+						</label>
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+
+				</form>
+			</div>
+
+			<div class="col-md-5 col-md-offset-2">
+				<h3>El Charro Mexican Restaurant</h3>
+				<p>455 Downtown St<br>Fresno, CA 93728<br>P: (123) 456-7890</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25579.567881238465!2d-119.81287065193894!3d36.73586471124941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a0ec0b3b93%3A0x49f3fe4059671268!2sDowntown%2C+Fresno%2C+CA!5e0!3m2!1sen!2sus!4v1494394501017" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+
+
 		</div>
 	</div>
-	<!--ALWAYS SECTION ENDS-->
+	<!--CONTACT SECTION ENDS-->
 
-	<!--OUR STORY SECTION STARTS HERE-->
-	<div class="container-fluid" id="our-story">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center" id="story-text">
-				<img src="img/our-story.png" alt="Our Story" class="image-responsive text-center" id="story-label">
-				<p class="white-text text-left">Our story begins in the 1950’s, when my grandparents left their small village, in Jalisco Mexico. They came to Fresno California, and opened “El Charro Restaurant” in 1964, inspired by authentic Mexican recipies and ingredients passed down for generations.
-				</p>
-			</div>
-		</div>
-	</div>
-	<!--OUR STORY SECTION ENDS HERE-->
+	<!--FOOTER SECTION STARTS-->
 
 
-
-<!--EVENT SECTION STARTS HERE-->
-	<div class="container-fluid" id="events">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3 text-center" id="events-text">
-				<img src="img/events.png" alt="Our Story" class="image-responsive text-center" id="events-label">
-				<p class="white-text text-center">Let us cater your next event. Call us for a quote.
-				</p>
-			</div>
-		</div>
-	</div>
-
-
-<!--EVENT SECTION ENDS HERE-->
-
-
-
-
-<!--CONTACT SECTION STARTS-->
-
-<p>contact section</p>
-
-<!--CONTACT SECTION ENDS-->
-
-
-
-
-<!--MENU SECTION BEGINS-->
-<div class="container-fluid" id="menu-section">
+<div class="container-fluid" id="footer">
 	<div class="row">
-		<div class="col-md-10 col-md-offset-1">
-			<img src="img/menu.png" alt="Menu" class="image-responsive text-center" id="menu-label">
+		<div class="col-md-6 col-md-offset-3">
+	    <div id="social-media" class="text-center white-text">
+	        <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+	        <a href="https://www.facebook.com/conjunto.labrisa"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+	        <a href="https://www.snapchat.com/"><i class="fa fa-snapchat fa-2x" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+			</div>
+ 		</div>
 
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs nav-justified" role="tablist">
-					<li role="presentation" class="active"><a href="#TRADITIONAL" aria-controls="TRADITIONAL" role="tab" data-toggle="tab">TRADITIONAL</a></li>
-					<li role="presentation"><a href="#SEAFOOD" aria-controls="SEAFOOD" role="tab" data-toggle="tab">SEAFOOD</a></li>
-					<li role="presentation"><a href="#SPECIALTIES" aria-controls="SPECIALTIES" role="tab" data-toggle="tab">SPECIALTIES</a></li>
-					<li role="presentation"><a href="#dessert" aria-controls="dessert" role="tab" data-toggle="tab">dessert</a></li>
-				</ul>
+		<div class="col-md-3">
+	      <p id="copy-slns">
+	        <a href="#" target="_blank" class="white-text centered">&copy; Salinas-Corp 2017. All Rights Reserved.</a>
+	      </p>
+	 	</div>
 
-				<!-- Tab panes -->
-				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane active fade in" id="TRADITIONAL">
-
-					<!--TRADITIONAL MENU SECTION BEGINS-->
-						<div class="col-xs-6 col-md-3 food-item">
-								<img src="img/tr-tacos.jpg" alt="Tacos" class="img-responsive img-thumbnail">
-								<h3>Tacos</h3>
-								<p class="text-justify">Your choice of meat on a warm corn tortilla.</p>
-						</div>
-
-						<div class="col-xs-6 col-md-3 food-item">
-								<img src="img/tr-burritos.jpg" alt="Burrito" class="img-responsive img-thumbnail">
-								<h3>Burritos</h3>
-								<p class="text-justify">Your choice of meat, plus the works!</p>
-						</div>
-
-						<div class="col-xs-6 col-md-3 food-item">
-								<img src="img/tr-quesadillas.jpg" alt="Quesadillas" class="img-responsive img-thumbnail">
-								<h3>Quesadillas</h3>
-								<p class="text-justify">Flour tortilla, melted cheese, and your choice of meat.</p>
-						</div>
-
-						<div class="col-xs-6 col-md-3 food-item">
-								<img src="img/tr-tortas.jpg" alt="Tortas" class="img-responsive img-thumbnail">
-								<h3>Tortas</h3>
-								<p class="text-justify">Classic birote bread, your choice of meat, and the works!</p>
-						</div>
-						<!--TRADITIONAL MENU SECTION ENDS-->
-
-
-					</div>
-
-					<div role="tabpanel" class="tab-pane fade" id="SEAFOOD">
-						<!--SEAFOOD MENU SECTION BEGINS-->
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/sea-coctel.jpg" alt="Coctel de Camaron" class="img-responsive img-thumbnail">
-									<h3>Shrimp Coctail</h3>
-									<p class="text-justify">Shrimp in coctail sauce, avocado, and fresh vegetables.</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/sea-mojarra.png" alt="Mojarra" class="img-responsive img-thumbnail">
-									<h3>Mojarra</h3>
-									<p class="text-justify">Well seasoned Mojarra, cooked to perfection.</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/sea-tcamaron.jpg" alt="Prime Rib" class="img-responsive img-thumbnail">
-									<h3>Shrimp Tostada</h3>
-									<p class="text-justify">Tostada topped with shrimp, and veggies.</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/sea-ceviche.jpg" alt="Ceviche Tostada" class="img-responsive img-thumbnail">
-									<h3>Ceviche Tostada</h3>
-									<p class="text-justify">Tostada topped with our lime-marinated fish.</p>
-							</div>
-							<!--SEAFOOOD MENU SECTION ENDS-->
-					</div>
-
-
-					<div role="tabpanel" class="tab-pane fade" id="SPECIALTIES">
-							<!--SPECIALTIES MENU SECTION BEGINS-->
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/dish-steak.jpg" alt="Steak Fajitas" class="img-responsive img-thumbnail">
-									<h3>Steak Fajitas</h3>
-									<p class="text-justify">Marinated Steak Fajitas, served with vegetable, tortillas, guacamole, and salsa.</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/dish-chicken.jpg" alt="Chicken Fajitas" class="img-responsive img-thumbnail">
-									<h3>Chicken  Fajitas</h3>
-									<p class="text-justify">Grilled Chicken Fajitas, served with vegetable, tortillas, guacamole, and salsa.</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/dish-chiles.jpg" alt="Chiles Rellenos" class="img-responsive img-thumbnail">
-									<h3>Chile Relleno</h3>
-									<p class="text-justify">Battered mild chile, stuffed with fresh mexican cheese. Served with rice, beans and salad</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/dish-mojo.png" alt="Bruschetta" class="img-responsive img-thumbnail">
-									<h3>Mojo de Ajo Shimp</h3>
-									<p class="text-justify">Shrimp cooked in a butter-garlic sauce, served with rice and beans.</p>
-							</div>
-							<!--SPECIALTIES MENU SECTION ENDS-->
-					</div>
-
-
-					<div role="tabpanel" class="tab-pane fade" id="dessert">
-						<!--DESSERT MENU SECTION BEGINS-->
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/dsrt-flan.jpg" alt="Flan" class="img-responsive img-thumbnail">
-									<h3>Flan</h3>
-									<p class="text-justify">Traditional mexican custard, toped with caramel sauce.</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/dsrt-tres.png" alt="Eggplant" class="img-responsive img-thumbnail">
-									<h3>Tres Leches Cake</h3>
-									<p class="text-justify">Mexican sponge cake infused with 3 types of sweet milk.</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/dsrt-churros.jpg" alt="Churros" class="img-responsive img-thumbnail">
-									<h3>Churros</h3>
-									<p class="text-justify">Churro pastry, served with chocolate dipping sauce.</p>
-							</div>
-
-							<div class="col-xs-6 col-md-3 food-item">
-									<img src="img/dsrt-dulce.jpg" alt="Dulce de Leche" class="img-responsive img-thumbnail">
-									<h3>Dulce de Leche</h3>
-									<p class="text-justify">Mexican Cheesecake, topped with caramel, and chocolate.</p>
-							</div>
-							<!--DESSERT MENU SECTION ENDS-->
-					</div>
-				</div>
-		</div>
-	</div>
+</div>
 </div>
 
-<!--MENU SECTION ENDS-->
+	<!--FOOTER SECTION STARTS-->
+
+
+
+
+
+
+
+
+</div>
+
+
+
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
