@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu-section ul>li>a{
-  color: darkgrey;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -195,6 +195,9 @@ ul{
   border: none;
 }
 
+#menu-section .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  background-color: #CD2027;
+}
 /*MENU FOOD ITEMS*/
 
 #menu-section{
