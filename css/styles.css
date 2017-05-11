@@ -222,7 +222,7 @@ ul{
   background-position: center;
   background-attachment: fixed;
   margin-top: 75px;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
 }
 
 #events-label{
@@ -251,7 +251,7 @@ ul{
 
 
   form{
-    background-color: #136734;
+    background-color: #126130;
     padding:15px;
   }
 
@@ -314,4 +314,9 @@ footer #social-media a {
 
 a{
   color: white;
+}
+
+a:focus, a:hover{
+  color: lightgrey;
+  text-decoration: none;
 }
